@@ -3,7 +3,7 @@ class Vertex {
     this.position = createVector(x, y);
     this.number = number;
     this.isDragging = false;
-    this.radius = 30;
+    this.radius = 40;
     this.selected = false;
     this.isAP = false;
     this.adjacencyList = [];
@@ -15,10 +15,10 @@ class Vertex {
       stroke(255, 0, 0);
       strokeWeight(2);
     }
-    fill(this.isAP ? 255 : 0);
+    fill(this.isAP ? 0 : 255);
     ellipse(this.position.x, this.position.y, this.radius);
     noStroke();
-    fill(this.isAP ? 0 : 255);
+    fill(this.isAP ? 255 : 0);
     textAlign(CENTER, CENTER);
     text(this.number, this.position.x, this.position.y);
   }

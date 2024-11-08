@@ -7,9 +7,9 @@ class Edge {
 
   display() {
     if (this.selected) {
-      stroke(255, 0, 0);
+      stroke("#0000FF");
     } else {
-      stroke(0, 0, 0);
+      stroke("#0000FF");
     }
     line(
       this.vertex1.position.x,
