@@ -74,7 +74,7 @@
 
 ---
 
-## 📄 License
+## License
 
 MIT License. Feel free to use, modify, and share!
 
